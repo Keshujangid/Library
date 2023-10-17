@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Library</title>
+    <script src="script.js" defer></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="header">
+        <h1>Welcome to Our Library Collection</h1>
+    </div>
+    <div class="Books">
+
+
+        <table>
+            <thead>
+                <tr>
+                    <th>Book Name</th>
+                    <th>Author Name</th>
+                    <th>Number of Pages</th>
+                    <th>Read Status</th>
+                    <!-- <th>Delete</th> -->
+                </tr>
+            </thead>
+            <tbody>
+                <!-- <tr>
+                    <td>Book 1</td>
+                    <td>Author 1</td>
+                    <td>300</td>
+                    <td><select name="" id="">
+                        <option value="not-read">not read</option>
+                        <option value="read">read</option>
+                    </select></td>
+                </tr>
+                <tr>
+                    <td>Book 2</td>
+                    <td>Author 2</td>
+                    <td>250</td>
+                    <td>Read</td>
+                </tr> -->
+
+                <!-- Add more rows for additional books -->
+            </tbody>
+        </table>
+
+
+
+
+        <dialog class="book-info dialog-box">
+            
+
+
+            <form method="dialog">
+                <label for="book-name">
+
+                    <input name="book-name" placeholder="Book name" type="text" id="book-name" required>
+                </label>
+
+                <label for="author-name">
+
+                    <input name="author-name" placeholder="Author" type="text" id="author-name" required>
+                </label>
+
+                <label for="pages">
+
+                    <input name="pages" placeholder="Number of pages" type="number" id="pages" min="0" required>
+                </label>
+
+                <label for="read-status">
+                    Did you read the Book
+                    <input name="read-status" type="checkbox" name="checkbox" id="read-status" >
+                </label>
+
+                <button id="close-button" class="dialog-close" value="close">x</button>
+                <button id="submit" value="submit"> Submit</button>
+            </form>
+            
+            
+        </dialog>
+        
+        <!-- <div class="book-card">
+            <div class="book-name">Book Title</div>
+            <div class="author-name">Author Name</div>
+            <div class="pages">Number of Pages: 300</div>
+            <div class="read-status">Read Status: Not Read</div>
+        </div> -->
+    </div>
+    <div class="add-book-btn">
+        
+        <button class="show-form">Add Books </button>
+        <!-- <button class="append-child">click here for append childs </button> -->
+    </div>
+
+
+</body>
+</html>
